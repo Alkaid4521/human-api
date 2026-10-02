@@ -1,0 +1,9 @@
+# Runtime state — never publish.
+# data/config.json holds the live API keys and the admin token.
+# data/requests.jsonl holds every request, its payload and the operator's reply.
+# logs/ mirrors the console, which prints the tokens at boot.
+data/
+logs/
+tools/
+node_modules/
+*.log

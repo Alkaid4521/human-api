@@ -1,0 +1,32 @@
+{
+  "name": "human-api",
+  "version": "1.0.0",
+  "description": "OpenAI-compatible chat completions API whose backend is a real person. Requests queue up, a human replies from their phone, the caller gets a standard OpenAI response.",
+  "license": "MIT",
+  "private": false,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node test/e2e.mjs",
+    "operator": "node test/operator.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alkaid4521/human-api.git"
+  },
+  "homepage": "https://github.com/Alkaid4521/human-api#readme",
+  "bugs": {
+    "url": "https://github.com/Alkaid4521/human-api/issues"
+  },
+  "keywords": [
+    "openai",
+    "openai-compatible",
+    "human-in-the-loop",
+    "api",
+    "ntfy",
+    "cloudflared",
+    "zero-dependency"
+  ]
+}
